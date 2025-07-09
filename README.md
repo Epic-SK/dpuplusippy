@@ -2,6 +2,7 @@
 Dynamic Pricing for Urban Parking Lots Capstone Project
 
 function used to calculate dynamic pricing in second model:
+
 price=10 + 1.5 * (3 * (pw.this.occ_max - pw.this.occ_min) / pw.this.cap - 0.5 * pw.this.que + 2 * pw.this.trf + pw.this.spl + (pw.this.veh - 1.5)).num.round(1)
 
 occ_max is occupancy max
